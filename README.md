@@ -5,7 +5,7 @@ Following project consists of 2 parts: dynamic library and a console application
 `make all`
 
 ## Run
-`LD_LIBRARY_PATH=. ./text_journal`
+`LD_LIBRARY_PATH=. ./text_journal [JOURNAL_NAME:str] [BASIC_IMPORTANCE:int from 0 to 2] `
 
 ## Clean temporary files
 `make clean`
@@ -29,3 +29,5 @@ This is a special message
 ```
 
 ## Usage
+Commands are specified in menu message; the program provides simple TUI interface
+
